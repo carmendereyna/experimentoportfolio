@@ -1,0 +1,322 @@
+@font-face{
+    font-family: 'Syne', sans-serif;
+}
+@font-face {
+    font-family: 'Krona One', sans-serif;
+}
+
+body {
+background-color: #E5E5E5;
+font-family: "syne";
+font-weight: 400;
+color: #001ECB;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+  }
+header{
+    width: 100%;
+  height: 100vh;
+}
+.navbar{
+    font-family: "syne";
+    font-weight: 700;
+top: 0;
+    height: 3%;
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      color: #001ECB;
+      padding-top: 24px;
+      padding-bottom: 24px;
+      padding-left: 40px;
+      padding-right: 40px;
+      border-bottom: #001ECB 1px solid;
+  }
+.nombre{
+    display: flex;
+   justify-content: flex-start;
+   padding-left: 40px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    gap: 40px;
+}
+.landing{
+    display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+  align-items: center;
+}
+.info{
+    width: 50%;
+display: flex;
+flex-direction: column;
+margin-left: 80px;
+justify-content: center;
+}
+.welcome{
+    color: #E5E5E5;
+    background-color: #001ECB;
+    padding: 24px 64px;
+    border: transparent solid 2px;
+    width: 520px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+
+}
+.welcome:hover{
+    color: black;
+    background-color: #DFFD30;
+    padding: 24px 64px;
+    border: black solid 2px;
+    width: 520px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+
+}
+.name{
+    padding-top: 34px;
+      padding-bottom: 24px;
+ 
+}
+.learnmore{
+    text-decoration: underline;
+}
+.infoimage{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.circle{
+    position:absolute;
+    height: 450px;
+    width: 450px;
+    top: 170px;
+    
+}
+.circle:hover{
+    position:absolute;
+    height: 450px;
+    width: 450px;
+    top: 170px;
+    -webkit-animation: rotate-center 30s linear infinite both;
+	        animation: rotate-center 30s linear infinite both;
+}
+.cajagrande{
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+.myprojects{
+    color: #E5E5E5;
+    background-color: #001ECB;
+    padding: 24px 64px;
+    border: transparent solid 2px;
+    width: 980px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+   margin: 0 auto;
+   margin-bottom: 40px;
+  
+   
+
+}
+
+  .projectcontainer {
+    width: 90%;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin: 0 auto;
+  }
+  .project {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+    border: #001ECB solid 2px;
+    margin-bottom: 40px;
+  }
+
+  .projectinfo {
+    width: 50%;
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding-left: 40px;
+padding-top: 80px;
+  }
+
+  .description{
+width: 536px;
+
+}
+.tags{
+    padding: 8,8,8,0px;  
+    display: flex;
+      justify-content: flex-start;
+      gap: 8px;
+      }
+    
+  .projectimg {
+    width: 50%;
+  }
+  .building-1{
+    position: relative;
+    padding-bottom: 340px;
+}
+.building-1 img {
+    position: absolute;
+    transition: opacity 0.2s ease-in-out;
+}
+.building-1 img.top:hover{
+    opacity: 0;
+}
+
+      .footer{
+          background-color: #E5E5E5;
+          height: 144px;
+          padding-left: 56px;
+          padding-top: 40px;
+          padding-bottom: 16PX;
+          display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top: #001ECB 2px solid;
+      }
+
+
+  h1{
+      font-family: "Krona One";
+      font-weight: 800;
+      font-size: 28px;
+      text-align: left;
+      color: #001ECB;
+      
+  }
+  h2 {
+ 
+    font-size: 36px;
+      font-family: "syne";
+      font-weight: 800;
+      
+  }
+  #welcome {
+    font-size: 20px;
+    font-family: "syne";
+    font-weight: 500;
+  }
+  h3{
+    font-size: 24px;
+    font-family: "syne";
+    font-weight: 600;
+      
+     
+  }
+  h4{
+      font-family: "Krona One";
+      
+      border: #001ECB 1px solid;
+      border-radius: 24px;
+      display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 40px;
+cursor: pointer;
+background-color: transparent;
+width: 90%;
+  }
+  h4:hover{
+    transition: all 0.2s ease;
+    font-family: "Krona One";
+    font-style: italic;
+    color: #E5E5E5;
+    background-color: #001ECB;
+    border: transparent 1px solid;
+    border-radius: 24px;
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 40px;
+cursor: pointer;
+width: 90%;
+}
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 18px;
+    padding-bottom: 24px;
+    padding-right: 48px;
+  }
+  a{
+    text-decoration: none;
+color: #001ECB;
+text-decoration: none;
+    background-color: transparent;
+    border: transparent 1px solid;
+    border-radius: 24px;
+    padding: 8px 16px 8px 16px;
+
+  }
+  a:hover{
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-style: italic;
+    background-color: #001ECB;
+color: #ffffff;
+border: transparent 1px solid;
+    border-radius: 24px;
+    padding: 8px 16px 8px 16px;
+   
+  }
+  .footercontent{
+      display: flex;
+      flex-direction: row;
+     justify-content: center;
+  }
+
+  .linkfooter {
+color: #001ECB;
+font-size: 36px;
+      font-family: "syne";
+      font-weight: 800;
+  }
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+  
